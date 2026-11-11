@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects | Dana Abarghoei</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <strong>Dana Abarghoei</strong>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+        </div>
+    </nav>
+
+    <!-- Page Introduction -->
+    <header class="page-header">
+        <h1>My Projects</h1>
+        <p class="intro">
+            Explore my work in software engineering,
+            hardware development, and data.
+        </p>
+    </header>
+
+    <!-- Featured Projects -->
+    <section class="portfolio-section">
+
+        <h2 class="section-title">Featured Projects</h2>
+
+        <p class="section-description">
+            Click on a project to learn more about it.
+        </p>
+
+        <div class="featured-projects">
+
+            <!-- Project 1 -->
+            <details class="featured-card">
+                <summary>
+                    <span class="project-icon">⚙️</span>
+                    <span class="project-heading">
+                        <strong>ESP32 Spotify Remote Controller</strong>
+                        <small>Hardware · C++ · Spotify Web API</small>
+                    </span>
+                </summary>
+
+                <div class="project-content">
+                    <p>
+                        I developed a Spotify remote controller
+                        using an ESP32 microcontroller, C++,
+                        and the Spotify Web API. This project
+                        allowed me to explore how hardware and
+                        software communicate through APIs and
+                        how physical devices can interact with
+                        digital applications.
+                    </p>
+
+                    <img src="ESP32.webp"
+                         alt="ESP32 microcontroller board"
+                         class="project-image"
+                         width="200">
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        ESP32, C++, Arduino IDE, Spotify Web API
+                    </p>
+                </div>
+            </details>
+
+            <!-- Project 2 -->
+            <details class="featured-card">
+                <summary>
+                    <span class="project-icon">🗄️</span>
+                    <span class="project-heading">
+                        <strong>Travel Recommendation Database</strong>
+                        <small>Database Design · SQL · MySQL</small>
+                    </span>
+                </summary>
+
+                <div class="project-content">
+                    <p>
+                        I designed a relational database for
+                        a travel recommendation system using
+                        SQL and MySQL. The database organizes
+                        information about destinations,
+                        climate, passport access, and travel
+                        preferences to support personalized
+                        travel recommendations.
+                    </p>
+
+                    <p>
+                        This project helped me develop my
+                        understanding of database design,
+                        entity relationships, and how
+                        structured data can support
+                        decision-making.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        SQL, MySQL, Relational Database Design
+                    </p>
+                </div>
+            </details>
+
+            <!-- Project 3 -->
+            <details class="featured-card">
+                <summary>
+                    <span class="project-icon">🔧</span>
+                    <span class="project-heading">
+                        <strong>Arduino Water Dispenser</strong>
+                        <small>Arduino · C++ · Hardware</small>
+                    </span>
+                </summary>
+
+                <div class="project-content">
+                    <p>
+                        I worked on an automated water
+                        dispenser using Arduino. This project
+                        helped me gain experience with
+                        microcontrollers, hardware components,
+                        and programming physical systems.
+                    </p>
+
+                    <p>
+                        I particularly enjoyed exploring
+                        how programming can control physical
+                        devices and how small hardware
+                        projects can solve everyday problems.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        Arduino, C++, Hardware Prototyping
+                    </p>
+                </div>
+            </details>
+
+        </div>
+    </section>
+
+    <!-- Skills and Experience -->
+    <section class="portfolio-section">
+
+        <h2 class="section-title">Skills & Experience</h2>
+
+        <div class="skills-grid">
+
+            <!-- Learning Card -->
+            <details class="skills-card">
+                <summary>
+                    <span class="skills-icon">📚</span>
+                    <strong>What I've Learned</strong>
+                    <small>Experiences and takeaways</small>
+                </summary>
+
+                <p>
+                    Working on these projects has helped me
+                    understand how different areas of computer
+                    science connect. Through my hardware
+                    projects, I've learned about programming
+                    microcontrollers and integrating software
+                    with physical components.
+                </p>
+
+                <p>
+                    My database projects have given me
+                    experience organizing information,
+                    designing relational schemas, and
+                    writing SQL queries. I've also developed
+                    problem-solving skills through debugging,
+                    testing, and improving my code.
+                </p>
+            </details>
+
+            <!-- Technologies Card -->
+            <details class="skills-card">
+                <summary>
+                    <span class="skills-icon">💻</span>
+                    <strong>Technologies I've Used</strong>
+                    <small>Programming languages and tools</small>
+                </summary>
+
+                <p>
+                    Throughout my coursework and personal
+                    projects, I've worked with several
+                    programming languages and technologies.
+                </p>
+
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>SQL and MySQL</li>
+                    <li>R</li>
+                    <li>Arduino and ESP32</li>
+                </ul>
+            </details>
+
+        </div>
+    </section>
+
+    <!-- Data Visualization -->
+    <section class="portfolio-section">
+
+        <h2 class="section-title">Data Visualization</h2>
+
+        <div class="visualization-card">
+
+            <h3>Programming Languages Visualization</h3>
+
+            <p>
+                This visualization was created using D3.js,
+                a JavaScript library for data visualization.
+                It demonstrates how programming languages
+                can be represented using a bar chart.
+                The values are illustrative and do not
+                represent measured proficiency.
+            </p>
+
+            <div id="chart"></div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            <a href="index.html">Back to Home</a>
+        </p>
+        <p>© 2026 Dana Abarghoei</p>
+    </footer>
+
+    <!-- D3 JavaScript -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="chart.js"></script>
+
+</body>
+</html>
